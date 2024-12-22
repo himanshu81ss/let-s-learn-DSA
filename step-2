@@ -1,0 +1,57 @@
+#if else statement.
+#'if statement' is used to execute a block of code only if a certain condition is met. It allows us to conditionally execute code based on whether the specified condition is true.
+#'else statement', on the other hand, is an optional companion to the if statement. It specifies what code to execute if the condition in the if statement is not met (i.e. if it is false).
+
+#1- checking if i is less than 15
+i=10
+if(i<15):
+	print("i is less than 15")
+	
+
+#2- checking if i is greator than 0
+i=20
+if(i>0):
+	print("i is positive")
+else:
+	print("i is 0 or negative")
+	
+
+#3- ternary conditional to check if number is positive or negative 
+number=-2
+result="positive" if number >= 0 else"negative"
+print(result)
+
+
+#4- example of nested if else statement :
+i = 10
+if (i == 10):
+    if (i < 15):
+        print("i is smaller than 15")
+    # Nested - if statement
+    if (i < 12):
+        print("i is smaller than 12 too")
+    else:
+        print("i is greater than 15")        
+else:
+  print("i is not equal to 10")
+
+  
+#5- example of if...elif...else statement:
+i = 25
+ # Checking if i is equal to 10
+if (i == 10):
+    print("i is 10")
+ # Checking if i is equal to 15
+
+elif (i == 15):
+    print("i is 15")
+ # Checking if i is equal to 20
+
+elif (i == 20):
+    print("i is 20")
+    
+ # If none of the above conditions are true
+else:
+    print("i is not present")
+
+#completed.
