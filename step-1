@@ -1,0 +1,12 @@
+#input/output
+
+****
+input:
+python's in built function input() is used to take input from the user.
+syntax:
+input('prompt')
+where prompt is the string tha we need to display on the screen while taking input.it is optional to provide a prompt.
+outpu:
+python's in-built function print() is used to display the output to the screen.
+syntax:
+print()
